@@ -9,7 +9,9 @@ Exemple Talend élémentaire d'appel de l'API d'extraction v1 des offres de form
 	o https://www.talend.com/products/data-integration-manuals-release-notes/
 	o https://help.talend.com/r/RzdULPz3cf8xOi2hTwk6LQ/IK8ah80s5BANqaRiCzD4lA
 
-**Environnement de travail** : bac à sable établissement avec le compte svc-api
+**Environnement de travail** : Environnement détenant l'autorisation sur le compte de service svc-api d'utiliser l'API d'extraction des offres de formation sur une période mise en oeuvre donnée
+
+**Obtention manuelle du token JWT d'authentification auprès des APIs Pégase**
 curl -d "username=svc-api&password=MOTDEPASSESVCAPI&token=true" -H "Content-Type: application/x-www-form-urlencoded" -X POST https://authn-app.bas-mdw.pc-scol.fr/cas/v1/tickets
 
 
