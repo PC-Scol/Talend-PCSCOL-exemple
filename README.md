@@ -21,6 +21,7 @@ Ce repository regroupe des exemples d'utilisation de l'outillage Talend pour s'i
 
 
 **Talend-PCSCOL-exemple-extractionOF-recuperationToken**
+	
 	Exemple Talend élémentaire d'appel de l'API d'extraction v1 des offres de formation d'une période de mise en oeuvre donnée v1 puis d'interprétation du JSON obtenu + Exemple Talend élémentaire de récupération du token JWT d'authentification auprès des APIs Pégase
 
 	*** Objectif : développer un job d'extraction des offres de formation Pégase mises en oeuvre sur une période donnée
