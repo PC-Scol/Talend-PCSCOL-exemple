@@ -2,6 +2,7 @@
 Ce repository regroupe des exemples d'utilisation de l'outillage Talend pour s'intégrer avec des API Pégase
 
 **Talend-PCSCOL-exemple-extraction-flux-inscription**
+	
 	Exemple Talend élémentaire d'appel de l'API d'extraction v5 des inscriptions entre un timestamp de début et un timestamp de fin.
 	Le job Talend exemple est un job élémentaire simple d'appel unitaire de l'API d'extraction en lui passant un timestamp de début et un timestamp de fin. Un shell d'ordonnancement est proposé avec. Ce shell permet de montrer un exemple :
 		- d'appel du binaire généré par Talend avec passage de paramètre
