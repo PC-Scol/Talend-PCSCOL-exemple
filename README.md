@@ -4,15 +4,13 @@ Exemple Talend élémentaire d'appel de l'API d'extraction v1 des offres de form
 **Objectif** : développer un job d'extraction des offres de formation Pégase mises en oeuvre sur une période donnée
 
 **Prérequis** : Java 8 et installation de Talend Open Studio For Data Integration:
-- Windows et MAC: https://www.talend.com/fr/download/thankyou-fr/data-integration-windows/
-- Linux :
-	o https://www.talend.com/products/data-integration-manuals-release-notes/
-	o https://help.talend.com/r/RzdULPz3cf8xOi2hTwk6LQ/IK8ah80s5BANqaRiCzD4lA
+- Windows : https://help.talend.com/r/en-US/7.3/installation-guide-open-studio-for-data-integration-windows/compatible-java-environments
+- Linux : https://help.talend.com/r/en-US/7.3/installation-guide-open-studio-for-data-integration-linux/software-requirements
 
 **Environnement de travail** : Environnement détenant l'autorisation sur le compte de service svc-api d'utiliser l'API d'extraction des offres de formation sur une période mise en oeuvre donnée
 
 **Obtention manuelle du token JWT d'authentification auprès des APIs Pégase**
-curl -d "username=svc-api&password=MOTDEPASSESVCAPI&token=true" -H "Content-Type: application/x-www-form-urlencoded" -X POST https://authn-app.bas-mdw.pc-scol.fr/cas/v1/tickets
+curl -d "username=svc-api&password=MOTDEPASSESVCAPI&token=true" -H "Content-Type: application/x-www-form-urlencoded" -X POST https://authn-app.ETABLISSEMENT.pc-scol.fr/cas/v1/tickets
 
 
 **Atelier**
